@@ -1,0 +1,336 @@
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .controls {
+    position: sticky;
+    top: 20px; /* Distance from the top of the section */
+    right: 20px;
+    padding-right: 15px;
+    background-color: #4b4b4b;
+    border: 2px solid #f5d76e;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+  .navbar {
+    background-color: #FF7F00; /* Overwatch orange color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white; /* Ensures the text remains visible */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange; /* Changes text color on hover */
+}
+.dropdown-menu {
+    background-color: #2C2C2C !important; /* Dark background for dropdown */
+    border: 1px solid #A04000 !important ;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #D35400;
+    color: white;
+}
+/* Ensures the hover effect is applied correctly */
+.navbar .dropdown:hover .dropdown-menu {
+    color: white !important;
+}
+
+
+
+  
+  .button1 svg {
+    fill: #f5d76e;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .button1 {
+    padding: 10px 20px;
+    padding-left: 33px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+
+  }
+  .logocontainer img {
+    width: 400px;
+    height: auto;
+  }
+
+
+  
+  .btn-outline-primary1:hover {
+    background-color: #b97a2a !important; /* Slightly darker muted orange on hover */
+    border-color: #b97a2a !important;
+  }
+  
+  /* Learn More Button */
+  
+  
+  
+  .overlay-logo {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+/* Combined and optimized CSS */
+/* Button Styling */
+.wow-button, .btn-outline-primary1, .btn-outline-secondary {
+    background-color: transparent;
+    border: 2px solid #f0a500;
+    color: #f0a500;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect */
+.wow-button:hover, .btn-outline-primary1:hover, .btn-outline-secondary:hover {
+    background-color: #f7d053;
+    border-color: #e09b00;
+}
+
+/* Ensure the button is clickable */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+/* Make the container full-width and set position relative */
+.area {
+    position: relative;
+    width: 100%;
+    height: 400px; /* You can adjust this height */
+}
+.area2 {
+    position: relative;
+    width: 100%;
+    height: 400px; /* You can adjust this height */
+}
+/* Ensure the background image covers the area */
+.showcase-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style the text overlay */
+.addtext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align text to the left */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for text readability */
+}
+
+/* Add some margin for spacing the buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Style the buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+/* Make the container full-width and set position relative */
+.area2 {
+    position: relative;
+    width: 100%;
+    height: 400px; /* You can adjust this height */
+}
+
+/* Ensure the background image covers the area */
+.showcase-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style the text overlay */
+.addtext2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align text to the left */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for text readability */
+}
+
+/* Add some margin for spacing the buttons */
+.button-container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Style the buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+/* Make the container full-width and set position relative */
+/* Make the container full-width and set position relative */
+/* Make the container full-width and set position relative */
+/* Make the container full-width and set position relative */
+.area2 {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Height adjusted to your input */
+}
+
+/* Ensure the background image covers the area */
+.showcase-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style the text overlay */
+.addtext2 {
+position: absolute;
+top: 0;
+right: 0; /* Align text container to the right */
+padding: 20px;
+color: white;
+width: 50%; /* Text takes up 50% of the image width on the right */
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start; /* Align text to the top of the container */
+align-items: flex-start; /* Align text to the left inside the container */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for text readability */
+}
+
+/* Add some margin for spacing the buttons */
+.button-container2 {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 20px;
+}
+
+/* Style the buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.row>* {
+   
+    padding-left: 600px;
+   
+}
+  
+  

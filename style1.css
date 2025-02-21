@@ -1,0 +1,141 @@
+.text-b {
+    font-size: 50px !important;
+    font-weight: 600px !important;
+    text-decoration: black;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 0rem;
+}
+.bg-dark-subtle {
+    background: linear-gradient(to bottom, rgb(253, 253, 253), grey) !important;
+}
+/* Make the button larger */
+.btn-custom {
+    font-size: 2rem; /* Larger font size */
+    padding: 15px 30px; /* Larger padding */
+    background-color: #FFA500; /* Orange color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Optional: rounded corners */
+    font-weight: bold; /* Make it bold */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for button */
+.btn-custom:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+}
+
+/* Position the button higher on the image */
+/* Position the button lower on the image */
+.card-img-overlay {
+    position: absolute;
+    top: 80%; /* Move button down (adjust this value to move it more or less) */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: flex-start; /* Align button to the top of the image */
+}
+
+
+/* Ensure the image behaves correctly */
+.card-img {
+    object-fit: cover; /* Ensure image covers the container without stretching */
+    height: 100%; /* Make the image fill the container */
+}
+/* Update navbar background to Overwatch orange */
+.navbar {
+  background-color: #FF7F00; /* Overwatch orange color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; /* Ensures the text remains visible */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: orange; /* Changes text color on hover */
+}
+.dropdown-menu {
+  background-color: #2C2C2C; /* Dark background for dropdown */
+  border: 1px solid #A04000;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #D35400;
+  color: white;
+}
+.card-link {
+    text-decoration: none;
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 10px 20px rgba(219, 3, 3, 0.667); /* Golden glow effect */
+  }
+  .card-text {
+    text-decoration: none !important;
+  }
+  a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps text color consistent */
+  }
+  
+  a:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+  }
+  hr {
+    height: 6px;
+    border: none;
+    background: linear-gradient(to right, black, orange);
+  }
+  .bordered-heading {
+    border: 4px solid #ffae00;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-transform: uppercase;
+    
+  }
+  .container {
+    text-align: center;
+}
+.bordered-style {
+    border: 4px solid #ffae00;
+    padding: 15px 30px;
+    display: block; /* Ensures block behavior */
+    width: fit-content; /* Prevents stretching */
+    margin: 0 auto; /* Centers the element */
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.bordered-style:hover {
+    background: #ffae00;
+    color: black;
+}
+
+/* Ensure button behaves like Bootstrap buttons */
+.bordered-style.btn {
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}

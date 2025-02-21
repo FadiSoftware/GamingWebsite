@@ -1,0 +1,429 @@
+/* Image Container */
+
+.navbar {
+    background-color: #FF7F00; /* Overwatch orange color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white; /* Ensures the text remains visible */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange; /* Changes text color on hover */
+}
+.dropdown-menu {
+    background-color: #2C2C2C; /* Dark background for dropdown */
+    border: 1px solid #A04000;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #D35400;
+    color: white;
+}
+
+/* Background Image */
+.bg-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Overlay Logo */
+.overlay-logo {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Adjust size as needed */
+}
+
+/* Text Overlay - Ensures Both Text Elements Stay Together */
+.text-overlay {
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+/* Heading (Main Text) */
+.custom-heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffffff; /* White text */
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 5px; /* Ensures small gap between heading and subheading */
+}
+
+/* Subheading (Directly Underneath the Main Heading) */
+.subheading {
+    margin-top: 30px !important;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: "Belwe Bold", Georgia, Times, "Times New Roman", serif;
+    color: rgba(255, 208, 151); /* Hearthstone Light Gold */
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 3px 3px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 0; /* Ensures no extra spacing */
+}
+
+/* Button Group - Position */
+.btn-group {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Button Styling */
+.host-anchor {
+    background-color: #FF7A00; /* Hearthstone Orange */
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 50px; /* Rounded button */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover and Focus Effects */
+.host-anchor:hover, .host-anchor:focus {
+    background-color: #FF5900; /* Slightly darker on hover */
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+/* Button Active State */
+.host-anchor:active {
+    background-color: #cc4700; /* Even darker when clicked */
+}
+
+/* Button Active State - Optional ball-out effect */
+.host-anchor:active {
+    transform: scale(0.95);
+}
+.halawalla {
+    padding-top: 50px;
+}
+.imgedit{
+    max-width: 600px;
+}
+/* Ensure image doesn't overflow */
+/* Apply background image to the container */
+.container {
+    background-image: url('/images/background-image.jpeg'); /* Replace with your background image path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 50px 0; /* Adds padding to the top and bottom of the container */
+}
+
+/* Ensure image doesn't overflow */
+/* Add a dark yellow border to the image */
+img.imgedit {
+    max-width: 100%; /* Make sure the image scales down to fit its container */
+    height: auto;    /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+    border: 5px solid #DAA520; /* Dark yellow border color (Goldenrod) */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow to image */
+}
+
+
+/* Optional: You can add some padding and text formatting */
+h1 {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-weight: 900;
+    color: #fff; /* Make text white to stand out against the background */
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a subtle shadow for better readability */
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: rgba(228, 228, 228, 0.815); /* Light text for better contrast */
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-lg-6 {
+        margin-bottom: 20px;
+    }
+}
+.latest-developments {
+    display: inline-block;
+    border: 4px solid #DAA520; /* Dark yellow border, same as the one used for the image */
+    padding: 20px 30px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin: 30px 0; /* Adds some space above and below the section */
+    width: 100%;
+    max-width: 600px; /* You can adjust this based on how wide you want the section */
+    text-align: center;
+}
+
+.latest-developments h2 {
+    font-size: 2rem; /* Heading font size */
+    color: #333; /* Dark text color */
+    margin-bottom: 15px; /* Space below the heading */
+    font-weight: bold;
+    text-transform: uppercase; /* Makes the text uppercase like "What's New" */
+}
+
+.latest-developments p {
+    font-size: 1.25rem; /* Adjusts the font size for the paragraph */
+    color: #555; /* Lighter text color */
+}
+/* Button Group Styling */
+.btn-group {
+    margin-top: 20px;
+}
+
+/* Buy Now button styling */
+.btn-purple {
+    background-color: purple;
+    color: white;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-purple:hover {
+    background-color: #6a1b9a;
+}
+
+/* Learn More button styling */
+.btn-learn {
+    background-color: purple;
+    color: white;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-learn:hover {
+    background-color: #00bcd4;
+}
+
+/* Button Group Styling */
+.btn-groups {
+    margin-top: 30px; /* Added margin to separate from the text */
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between buttons */
+}
+
+/* Ensure the buttons are centered within their parent */
+.btn-groups .btn {
+    width: auto; /* Ensure buttons don’t stretch */
+}
+
+/* Add margin to the button */
+.btn-purple, .btn-learn {
+    margin-top: 20px; /* Add space above the buttons */
+}
+.row {
+    --bs-gutter-x: 0rem;
+}
+/* Add a dark yellow border around each card */
+.card.border-yellow {
+    border: 5px solid #DAA520; /* Dark yellow border (Goldenrod) */
+    border-radius: 10px; /* Optional: Add rounded corners to the cards */
+}
+
+/* Card Title Styling */
+.card-title {
+    font-weight: bold;
+    color: #DAA520; /* Dark yellow color */
+    text-transform: uppercase; /* Make the title uppercase */
+}
+
+/* Card Text Styling */
+.card-text {
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(228, 228, 228, 0.815); /* Light text color */
+    line-height: 1.6;
+}
+
+.pfooter{
+    font-size: 20px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-weight: 900;
+    color: #fff; /* Make text white to stand out against the background */
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a subtle shadow for better readability */
+}
+.hfooter{
+    font-size: 10px !important;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 900;
+color: rgba(228, 228, 228, 0.815); /* Light text for better contrast */
+line-height: 1.6;
+
+}
+/* Add hover and focus effects to the card links */
+.card-link {
+    text-decoration: none; /* Removes default underline from the link */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect when hovering over the entire card */
+.card-link:hover .card {
+    border-color: #DAA520; /* Yellow border color when hovered */
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+/* Hover effect for card body */
+.card-link:hover .card-body {
+    background-color: rgba(0, 0, 0, 0.1); /* Slight darken background */
+}
+
+/* Optional: Focus effect for better accessibility */
+.card-link:focus .card {
+    border-color: #DAA520; /* Yellow border color when focused */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Card body text hover effect */
+.card-link:hover .card-body h5, .card-link:hover .card-body p {
+    color: #DAA520; /* Change text color to yellow */
+}
+
+/* Padding between card columns */
+.row .col {
+    padding-right: 10px; /* Right padding between cards */
+    padding-left: 10px;  /* Left padding between cards */
+}
+
+/* Adjustments to space between specific cards (1 & 2, 3 & 4) */
+.row .col:nth-child(2), .row .col:nth-child(3) {
+    padding-right: 20px;
+}
+
+/* Specific padding for 3rd and 4th cards for a better gap */
+.row .col:nth-child(3) {
+    padding-right: 20px;
+}
+.showcase-section {
+    position: relative;
+    width: 100%;
+}
+
+.showcase-bg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.showcase-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.showcase-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.showcase-description {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.showcase-btn {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.showcase-btn:hover {
+    background-color: #5a0c9e;
+    transform: scale(1.05);
+}
+.stay-connected {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.stay-connected-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stay-connected-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(85, 55, 30, 0.8); /* Brown fantasy-style overlay */
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.stay-connected-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFD700; /* Gold */
+    text-transform: uppercase;
+}
+
+.stay-connected-text {
+    font-size: 1.2rem;
+    color: #FFF;
+    margin: 10px 0 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: #FFD700;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    color: #FFF;
+    transform: scale(1.2);
+}
